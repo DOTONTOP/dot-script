@@ -1,12 +1,156 @@
 
-local ply = game.Players.LocalPlayer
-        local chr = ply.Character
-        chr.RightLowerLeg.MeshId = "902942093"
-        chr.RightLowerLeg.Transparency = "1"
-        chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=134079402"
-        chr.RightUpperLeg.TextureID = "http://www.roblox.com/asset/?id=133940918"
-        chr.RightFoot.MeshId = "134079402"
-        chr.RightFoot.Transparency = "1"
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local super = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local beastred = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
+local beastblue = Instance.new("ImageButton")
+local UICorner_8 = Instance.new("UICorner")
+local playful = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local pprank = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local yum = Instance.new("ImageButton")
+local UICorner_11 = Instance.new("UICorner")
 
 
+ScreenGui.Parent = game.CoreGui
 
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(198, 198, 198)
+main.Position = UDim2.new(0.0521512367, 0, 0.0819398016, 0)
+main.Size = UDim2.new(0, 707, 0, 483)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 707, 0, 62)
+TextLabel.Font = Enum.Font.Highway
+TextLabel.Text = "script faces | made by dot#1020"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner.Parent = TextLabel
+
+UICorner_2.Parent = main
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.373408824, 0, 0.128364265, 0)
+ImageLabel.Size = UDim2.new(0, 168, 0, 101)
+ImageLabel.Image = "rbxassetid://7948934721"
+
+UICorner_3.Parent = ImageLabel
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.871635616, 0)
+TextLabel_2.Size = UDim2.new(0, 707, 0, 62)
+TextLabel_2.Font = Enum.Font.Highway
+TextLabel_2.Text = "Arab Community"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_4.Parent = TextLabel_2
+
+TextLabel_3.Parent = main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.329561532, 0, 0.699792981, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansItalic
+TextLabel_3.Text = "soon more...."
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_5.Parent = TextLabel_3
+
+super.Name = "super"
+super.Parent = main
+super.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+super.Position = UDim2.new(0.858557284, 0, 0.33540374, 0)
+super.Size = UDim2.new(0, 100, 0, 100)
+super.Image = "rbxassetid://7955428436"
+super.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://494290547"
+end)
+
+UICorner_6.Parent = super
+
+beastred.Name = "beast red"
+beastred.Parent = main
+beastred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+beastred.Position = UDim2.new(9.31322575e-10, 0, 0.33540374, 0)
+beastred.Size = UDim2.new(0, 100, 0, 100)
+beastred.Image = "rbxassetid://7954560952"
+beastred.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://127959433"
+end)
+
+UICorner_7.Parent = beastred
+
+beastblue.Name = "beast blue"
+beastblue.Parent = main
+beastblue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+beastblue.Position = UDim2.new(0, 0, 0.596273303, 0)
+beastblue.Size = UDim2.new(0, 100, 0, 100)
+beastblue.Image = "rbxassetid://7955464679"
+beastblue.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://209712379"
+end)
+
+UICorner_8.Parent = beastblue
+
+playful.Name = "playful"
+playful.Parent = main
+playful.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+playful.Position = UDim2.new(0.858557284, 0, 0.596273303, 0)
+playful.Size = UDim2.new(0, 100, 0, 100)
+playful.Image = "rbxassetid://7955469890"
+playful.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://2409281591"
+end)
+
+UICorner_9.Parent = playful
+
+pprank.Name = "pprank"
+pprank.Parent = main
+pprank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pprank.Position = UDim2.new(0.289957583, 0, 0.414078683, 0)
+pprank.Size = UDim2.new(0, 100, 0, 100)
+pprank.Image = "rbxassetid://7955474533"
+pprank.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://387256104"
+end)
+
+UICorner_10.Parent = pprank
+
+yum.Name = "yum!"
+yum.Parent = main
+yum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yum.Position = UDim2.new(0.562942028, 0, 0.414078683, 0)
+yum.Size = UDim2.new(0, 100, 0, 100)
+yum.Image = "rbxassetid://7955485433"
+yum.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://26018945"
+end)
+
+UICorner_11.Parent = yum
